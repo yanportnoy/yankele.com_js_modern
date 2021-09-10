@@ -41,7 +41,7 @@ body {
   height: 46vh;
   border: 1px solid #333;
   border-radius: 3px;
-  box-shadow: 2px 4px #f2f2f2;
+  box-shadow: 4px 4px var(--shadow);
   background-color: #333;
   text-shadow: 3px #1d1818;
 }
@@ -86,7 +86,7 @@ body {
   background-color: rgba(250, 235, 215, 0.8);
   border: 1px solid #333;
   border-radius: 3px;
-  box-shadow: 2px 4px var(--dark);
+  box-shadow: var(--dark);
   color: #2a2a2a;
   /* border: 2px solid green;*/
 }
