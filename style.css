@@ -46,35 +46,6 @@ body {
   text-shadow: 3px #1d1818;
 }
 
-.resume {
-  background-image: url(img/resume.jpg);
-  background-position: -50px;
-}
-.vim {
-  background-image: url(img/vim.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  /* background-position: -50px; */
-}
-.who {
-  background-image: url(img/who.jpg);
-  background-size: cover;
-  background-position: -50px;
-}
-
-.purim {
-  background-image: url(img/purim.jpg);
-  background-position: -50px;
-}
-.film {
-  background-image: url(img/film.jpg);
-  background-position: -50px;
-}
-.school {
-  background-image: url(img/school.jpg);
-  background-position: center;
-}
-
 .myCont {
   /* vertical-align: middle;
   margin: auto; */
@@ -104,11 +75,66 @@ body {
   padding-left: 20px;
   /* border: 2px solid green; */
 }
+
+.resume {
+  background-image: url(img/resume.jpg);
+  background-position: -50px;
+}
+.vim {
+  background-image: url(img/vim.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: -50px; */
+}
+.who {
+  background-image: url(img/who.jpg);
+  background-size: cover;
+  background-position: -50px;
+}
+
+.who:hover {
+  background-image: url("img/meandkey.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0;
+}
+
+.who:hover > div > p {
+  display: none;
+}
+.who:hover > div > h1 {
+  display: none;
+}
+
+.purim {
+  background-image: url(img/purim.jpg);
+  background-position: -50px;
+}
+.film {
+  background-image: url(img/film.jpg);
+  background-position: -50px;
+}
+.school {
+  background-image: url(img/school.jpg);
+  background-position: center;
+}
+
+.school:hover {
+  background-image: url("img/school0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0;
+}
+
+.school:hover > div > p {
+  display: none;
+}
+.school:hover > div > h1 {
+  display: none;
+}
+
 /*Navbar*/
 
-/**/
-
-/* Navigation */
 .navbar ul {
   display: grid;
   grid-gap: 15px;
