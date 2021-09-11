@@ -12,6 +12,7 @@
   box-sizing: border-box;
   line-height: 1.4rem;
 }
+
 html,
 body {
   font-family: "Roboto", sans-serif;
@@ -42,7 +43,7 @@ body {
   gap: 1rem;
 }
 .Row .Panel {
-  height: 46vh;
+  height: 42vh;
   border: 1px solid #333;
   border-radius: 3px;
   box-shadow: 4px 4px var(--shadow);
@@ -94,6 +95,7 @@ body {
 .who {
   background-image: url(img/who.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: -50px;
 }
 /* "https://lh3.googleusercontent.com/yfjy0WXblhG6CFUUsOEi3GfHu2JVIbMXzYa9yTyj3974aWsTJWYuteAbjZK30jG2lcmMDSKlLh_MMEkaUAoHjWe07rGD88CtilU65ySrIvVEmFVgUciJaU2DBp0NgakudNJNFkHi3ZQ=w1920-h1080" */
@@ -104,10 +106,10 @@ body {
   background-position: 0;
 }
 
-.who:hover > div > p {
+.who:hover > div {
   display: none;
 }
-.who:hover > div > h1 {
+.who:hover > div {
   display: none;
 }
 
@@ -117,7 +119,7 @@ body {
 }
 .film {
   background-image: url(img/film.jpg);
-  background-position: -50px;
+  background-position: -20%;
 }
 .film:hover {
   background-image: url("https://lh3.googleusercontent.com/yfjy0WXblhG6CFUUsOEi3GfHu2JVIbMXzYa9yTyj3974aWsTJWYuteAbjZK30jG2lcmMDSKlLh_MMEkaUAoHjWe07rGD88CtilU65ySrIvVEmFVgUciJaU2DBp0NgakudNJNFkHi3ZQ=w1920-h1080");
@@ -126,10 +128,10 @@ body {
   background-position: 0;
 }
 
-.film:hover > div > p {
+.film:hover > div {
   display: none;
 }
-.film:hover > div > h1 {
+.film:hover > div {
   display: none;
 }
 .school {
@@ -144,10 +146,10 @@ body {
   background-position: 0;
 }
 
-.school:hover > div > p {
+.school:hover > div {
   display: none;
 }
-.school:hover > div > h1 {
+.school:hover > div {
   display: none;
 }
 
