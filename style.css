@@ -94,9 +94,10 @@ body {
 }
 .who {
   background-image: url(img/who.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: -50px;
+  /* background-position: 50%; */
+  background-size: 100% 100%;
 }
 /* "https://lh3.googleusercontent.com/yfjy0WXblhG6CFUUsOEi3GfHu2JVIbMXzYa9yTyj3974aWsTJWYuteAbjZK30jG2lcmMDSKlLh_MMEkaUAoHjWe07rGD88CtilU65ySrIvVEmFVgUciJaU2DBp0NgakudNJNFkHi3ZQ=w1920-h1080" */
 .who:hover {
